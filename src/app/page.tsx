@@ -1,12 +1,14 @@
-import {Login} from './containers/Register';
 
-import {Mybutton} from './containers/components/Button/index'
+'use client'
+import { MyStyles } from './styles/globalStyles';
+import {Login} from './containers/Login';
+
 
 export default function Home() {
   return (
     <div>
+      <MyStyles/>
      <Login/>
-     <Mybutton/>
     </div>
   );
 }
