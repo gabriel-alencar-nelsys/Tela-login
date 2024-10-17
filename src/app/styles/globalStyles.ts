@@ -8,7 +8,10 @@ export const MyStyles = createGlobalStyle`
   }
 
   body {
-    background: black; /* A cor de fundo é aplicada ao body */
-    font-family: 'Roboto', sans-serif; /* Adicione a fonte padrão se desejar */
+    background: black; 
+    font-family: 'Roboto', sans-serif; 
+ 
   }
 `;
+
+
